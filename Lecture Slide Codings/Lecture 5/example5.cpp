@@ -17,7 +17,7 @@ int main()
 		}
 		
 		++i;
-	}while (i < 6);
+	} while (i < 6);
 	
 	cout << x;
 	

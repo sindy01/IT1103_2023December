@@ -7,19 +7,16 @@ using namespace std;
 
 int main() 
 {
-    // Declare variables
     int number;
 
-    // Get input from the user
     cout << "Enter number: ";
     cin >> number;
 
-    // Print the pattern using a while loop
-    while (number >= 1) 
+    do
 	{
         cout << number << " ";
         number--;
-    }
+    } while (number >= 1);
 
     return 0;
 }
