@@ -8,12 +8,12 @@ int calculate_sum(int a ,int b);
 
 int main()
 {
-	int num1, num2, sum;
+	int num1, num2, sums;
 	cout << "Enter the two numbers : ";
 	cin >> num1 >> num2;
 	
-	sum = calculate_sum(num1,num2);
-	cout << "The summation of numbers is " << sum << endl;
+	sums = calculate_sum(num1,num2);
+	cout << "The summation of numbers is " << sums << endl;
 		
 	return 0;
 }
