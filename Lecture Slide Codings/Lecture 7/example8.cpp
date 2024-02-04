@@ -1,4 +1,4 @@
-//Lecture 7 Slide 15 - Array Initialization - Method 02
+//Lecture 7 Slide 20 - C-Style Character String
 
 #include <iostream>
 
@@ -6,11 +6,11 @@ using namespace std;
 
 int main() 
 {
-	int arr[] = {19,10,8,17,9,15};
+	char greeting[] = "Hello";
 	
 	for (int i = 0; i < 6; i++)
 	{
-		cout << arr[i] << endl;
+		cout << greeting[i] << endl;
 	}
  
     return 0;

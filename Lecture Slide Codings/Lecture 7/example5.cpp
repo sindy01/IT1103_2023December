@@ -1,4 +1,4 @@
-//Lecture 7 Slide 15 - Array Initialization - Method 02
+//Lecture 7 Slide 17 - Array With Empty Members
 
 #include <iostream>
 
@@ -6,7 +6,7 @@ using namespace std;
 
 int main() 
 {
-	int arr[] = {19,10,8,17,9,15};
+	int arr[6] = {19,10,8};
 	
 	for (int i = 0; i < 6; i++)
 	{
