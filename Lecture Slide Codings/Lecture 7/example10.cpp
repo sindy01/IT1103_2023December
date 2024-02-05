@@ -16,6 +16,7 @@ int main()
 	strcpy(message2 , message1);
 	cout << message2 << endl;
 	
+	cout << message3 << endl;
 	strcpy(message3 , message1);
 	cout << message3 << endl;
 	
