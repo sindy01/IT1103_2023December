@@ -13,7 +13,7 @@ int main()
 	// Thus *ptr gives the value of arr[0], *(ptr+1) gives arr[1] and so on
 	
 	//Print memory addresses and respective values stored in them
-	cout << ptr << "\t" << *ptr << endl;   
+	cout << ptr << "\t" << *ptr << endl;   		//ptr is &arr[0] *ptr is arr[0]
     cout << ptr+1 << "\t" << *(ptr+1) << endl; 
     cout << ptr+2 << "\t" << *(ptr+2) << endl; 
     cout << ptr+3 << "\t" << *(ptr+3) << endl; 
