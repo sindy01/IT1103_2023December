@@ -13,6 +13,20 @@ struct Employee
     float Salary;
 };
 
+Employee getEmployeeData();
+void printEmployeeData(Employee emp);
+
+int main()
+{
+    // Call getEmployeeData() to get employee details
+    Employee employee1 = getEmployeeData();
+
+    // Call printEmployeeData() to print employee details
+    printEmployeeData(employee1);
+
+    return 0;
+}
+
 Employee getEmployeeData()
 {
     Employee emp;
@@ -39,16 +53,5 @@ void printEmployeeData(Employee emp)
     cout << "Employee Name: " << emp.Empname << "\n";
     cout << "Employee Age: " << emp.Age << "\n";
     cout << "Employee Salary: " << emp.Salary << "\n";
-}
-
-int main()
-{
-    // Call getEmployeeData() to get employee details
-    Employee empDetails = getEmployeeData();
-
-    // Call printEmployeeData() to print employee details
-    printEmployeeData(empDetails);
-
-    return 0;
 }
 
