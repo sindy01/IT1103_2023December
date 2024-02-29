@@ -62,6 +62,6 @@ void calExamFee(double registrationFee, int studentsRegistered[], int size)
         totalFee += registrationFee * studentsRegistered[i];
     }
 
-    cout << "Total Exam Registration Fee for the week: " << totalFee << endl;
+    cout << "\n\nTotal Exam Registration Fee for the week: " << totalFee << endl;
 }
 
