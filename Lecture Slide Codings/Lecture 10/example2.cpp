@@ -7,13 +7,13 @@ using namespace std;
 
 int main()
 {
-    struct 
+	struct 
 	{
-	  	string brand;
-	  	string model;
-	  	int year;
+		string brand;
+		string model;
+		int year;
 	} myCar1, myCar2; // We can add variables by separating them with a comma here
-
+		
 	// Put data into the first structure
 	myCar1.brand = "BMW";
 	myCar1.model = "X5";

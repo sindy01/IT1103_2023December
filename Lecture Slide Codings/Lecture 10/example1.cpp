@@ -4,16 +4,17 @@
 
 using namespace std;
 
+struct Employee
+{
+	int EmpID ; 
+	string Empname;
+	int Age;
+	float Salary;
+};
+
 int main()
 {
-    struct Employee
-	{
-	    int EmpID ; 
-	    string Empname;
-	    int Age;
-	    float Salary;
- 	};
- 	
+    	
  	struct Employee Emp1,Emp2; 
  	
  	Emp1.EmpID = 100; 

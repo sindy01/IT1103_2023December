@@ -5,15 +5,16 @@
 
 using namespace std;
 
+typedef struct Employee
+{
+	int EmpID ; 
+	string Empname;
+	int Age;
+	float Salary;
+}Emp;				// The Alias is Emp
+
 int main()
 {
-	typedef struct Employee
-	{
-	    int EmpID ; 
-	    string Empname;
-	    int Age;
-	    float Salary;
- 	}Emp;				// The Alias is Emp
 
 	Emp Emp1,Emp2; 
  	
