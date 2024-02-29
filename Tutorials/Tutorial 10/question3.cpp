@@ -53,16 +53,14 @@ int main()
 void avgDerivation(double priceDerivation[], int size) 
 {
     const double exchangeRate = 180.0;
-    double totalPaymentLKR = 0;
+    double totalPaymentUSD = 0;
 
     for (int i = 0; i < size; ++i) 
 	{
-        totalPaymentLKR += priceDerivation[i];
         double priceUSD = priceDerivation[i]/ exchangeRate;
         cout << "Payment of Month" << i+1 << " in USD : " << priceUSD << endl;
+        totalPaymentUSD += priceUSD;
     }
-
-    double totalPaymentUSD = totalPaymentLKR / exchangeRate;
 
     cout << "\nThe total payment in USD : " << totalPaymentUSD << endl;
 }
