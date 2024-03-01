@@ -14,25 +14,25 @@ struct Exam
     int studentsRegistered[7];
 };
 
-Exam getExamDetails();
+Exam getExamDetails(Exam e); // Function prototype with Exam structure as parameter
 void calExamFee(double registrationFee, int studentsRegistered[], int size);
 
 int main() 
 {
+	Exam examNU;
+	
     // Call getExamDetails() to get exam details
-    Exam examDetails = getExamDetails();
+    examNU = getExamDetails(examNU);
 
     // Call calExamFee() to calculate and print total exam registration fee
-    calExamFee(examDetails.registrationFee, examDetails.studentsRegistered, 7);
+    calExamFee(examNU.registrationFee, examNU.studentsRegistered, 7);
 
     return 0;
 }
 
 // Function to get exam details
-Exam getExamDetails() 
+Exam getExamDetails(Exam e) 
 {
-    Exam e;
-
     cout << "Enter Exam ID: ";
     cin >> e.examID;
 
