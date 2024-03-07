@@ -12,11 +12,23 @@ class Circle
 	
 	public:
 		Circle();		// Constructor with no argument
-		Circle(int r);	// Constructor with one argument
+		Circle(double r);	// Constructor with one argument
 	    double getDiameter();
 	    double getArea();
 	    double getCircumference();
 };
+
+// Default constructor definition
+Circle::Circle()
+{
+    radius = 0.0; // Default radius is set to 0.0
+}
+
+// Parameterized constructor definition
+Circle::Circle(double r)
+{
+    radius = r;
+}
 
 double Circle::getDiameter()
 {

@@ -53,7 +53,6 @@ int main()
 
     // Display information about each circle
     cout << "Circle 1:" << endl;
-    cout << "Radius: " << circle1.getDiameter() << endl;
     cout << "Diameter: " << circle1.getDiameter() << endl;
     cout << "Area: " << circle1.getArea() << endl;
     cout << "Circumference: " << circle1.getCircumference() << endl;
@@ -61,7 +60,6 @@ int main()
     cout << endl;
 
     cout << "Circle 2:" << endl;
-    cout << "Radius: " << circle2.getDiameter() << endl;
     cout << "Diameter: " << circle2.getDiameter() << endl;
     cout << "Area: " << circle2.getArea() << endl;
     cout << "Circumference: " << circle2.getCircumference() << endl;
